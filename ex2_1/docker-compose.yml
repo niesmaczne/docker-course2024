@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  simple-web-service:
+    image: niesmaczne/docker-course2024:ex2_1
+    build: .
+    volumes:
+      - .:/mydir
+    container_name: ex2_1
